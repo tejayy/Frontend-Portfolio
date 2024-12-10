@@ -1,4 +1,4 @@
-import {ArrowRight} from "lucide-react";
+import {ArrowRight, FileDown} from "lucide-react";
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 transition-colors">
               I craft responsive websites where technology meets creativity
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <a
                 href="#projects"
                 className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -31,6 +31,14 @@ const Hero = () => {
                 className="inline-flex items-center px-6 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/50 transition-colors"
               >
                 Contact Me
+              </a>
+              <a
+                href="/resume.pdf"
+                download="frontend-developer-resume.pdf"
+                className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+              >
+                Download Resume
+                <FileDown className="ml-2" size={20} />
               </a>
             </div>
           </div>
