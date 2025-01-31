@@ -15,7 +15,7 @@ const Header = () => {
             href="#home"
             className="text-2xl font-bold text-gray-800 dark:text-white"
           >
-            DevPortfolio
+            Portfolio
           </a>
 
           <div className="hidden md:flex items-center space-x-8">
