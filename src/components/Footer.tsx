@@ -6,10 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h3 className="text-2xl font-bold">DevPortfolio</h3>
-            <p className="mt-2 text-gray-400">
-              Building the web, one pixel at a time
-            </p>
+            <h3 className="text-2xl font-bold">Tejas Jaybhaye</h3>
           </div>
           <div className="flex space-x-6">
             <a
@@ -34,7 +31,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>
-            &copy; {new Date().getFullYear()} DevPortfolio. All rights reserved.
+            &copy; {new Date().getFullYear()} Tejas. All rights reserved.
           </p>
         </div>
       </div>
