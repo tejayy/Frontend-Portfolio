@@ -1,4 +1,4 @@
-import {Code, Layout, Database, Terminal} from "lucide-react";
+import {Code, Layout, Database, Terminal, Cloud} from "lucide-react";
 import {SkillCategory} from "../types";
 
 export const skillCategories: SkillCategory[] = [
