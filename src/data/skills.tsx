@@ -1,4 +1,4 @@
-import {Code, Layout, Database, Terminal, Cloud} from "lucide-react";
+import {Code, Layout, Database, Terminal, Cloud, Container} from "lucide-react";
 import {SkillCategory} from "../types";
 
 export const skillCategories: SkillCategory[] = [
@@ -26,5 +26,10 @@ export const skillCategories: SkillCategory[] = [
     title: "Cloud / AWS",
     icon: <Cloud className="w-6 h-6" />, // You can add an appropriate icon here
     skills: ["AWS EC2", "AWS S3", "AWS Lambda", "AWS RDS", "AWS CloudFormation", "AWS API Gateway", "AWS IAM"],
+  },
+  {
+    title: "DevOps",
+    icon: <Container className="w-6 h-6" />,
+    skills: ["Linux", "Docker", "Kubernetes", "Jenkins", "Terraform", "Ansible"],
   },
 ]
