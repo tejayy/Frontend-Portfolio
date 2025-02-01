@@ -22,4 +22,9 @@ export const skillCategories: SkillCategory[] = [
     icon: <Code className="w-6 h-6" />,
     skills: ["JavaScript", "TypeScript", "HTML5", "CSS3", "Python"],
   },
-];
+  {
+    title: "Cloud / AWS",
+    icon: <Cloud className="w-6 h-6" />, // You can add an appropriate icon here
+    skills: ["AWS EC2", "AWS S3", "AWS Lambda", "AWS RDS", "AWS CloudFormation", "AWS API Gateway", "AWS IAM"],
+  },
+]
