@@ -37,13 +37,13 @@ const ProjectCard = ({project}: ProjectCardProps) => (
           <Github size={20} className="mr-2" />
           Code
         </a>
-        <a
+        {/* <a
           href={project.liveUrl}
           className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
         >
           <ExternalLink size={20} className="mr-2" />
           Live Demo
-        </a>
+        </a> */}
       </div>
     </div>
   </div>
