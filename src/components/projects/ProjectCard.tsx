@@ -1,4 +1,4 @@
-import {ExternalLink, Github} from "lucide-react";
+import {Github} from "lucide-react";
 import {Project} from "../../types";
 
 interface ProjectCardProps {
