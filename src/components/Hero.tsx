@@ -33,7 +33,7 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="/resume.pdf"
+                href="/Tejas-resume.pdf"
                 download="frontend-developer-resume.pdf"
                 className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
               >
