@@ -8,7 +8,7 @@ const ContactInfo = () => (
     <div className="space-y-4">
       <div className="flex items-center">
         <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400 mr-4" />
-        <span className="dark:text-gray-300">tejas.jay07@gmail.com</span>
+        <span className="dark:text-gray-300">tbj456@gmail.com</span>
       </div>
       <div className="flex items-center">
         <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400 mr-4" />
